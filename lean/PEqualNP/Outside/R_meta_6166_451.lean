@@ -1,7 +1,6 @@
 import PEqualNP.Defs
 
-open PEqualNP.CircuitLowerBounds PEqualNP.MetaComplexity PEqualNP.GenericRejection
-  PEqualNP.HeptadCover PEqualNP.Defs.LratEncoding in
+open PEqualNP.CircuitLowerBounds PEqualNP.MetaComplexity PEqualNP.GenericRejection PEqualNP.HeptadCover PEqualNP.Defs.LratEncoding in
 set_option maxHeartbeats 1000000 in
 theorem PEqualNP.Outside.R_meta_6166_451
     (search :
